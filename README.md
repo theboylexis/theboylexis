@@ -1,40 +1,54 @@
 # 💫 About Me
+
 👋 Hi, I’m **Alex Marfo Appiah**  
-🚀 Emerging **Full Stack Engineer & Entrepreneur** | Passionate about learning, building, and solving problems with code.  
+🚀 **Frontend Engineer** with a clear trajectory toward **Full-Stack Development & Entrepreneurship**
 
 ---
 
-### 🌱 My Journey
-Currently laying a strong foundation in **JavaScript** and progressively advancing through:  
-- ✅ **Beginner Projects** – strengthening core fundamentals  
-- 🟡 **Intermediate Projects** – working with APIs, state management & complex logic  
-- 🔴 **Advanced Projects** – real-world apps & scalable solutions  
-- 🧑‍💻 **Full Stack Development** – exploring modern frameworks, backend systems & deployment  
+## 🧠 Overview
+
+I build modern web applications with a strong focus on **frontend engineering**, clean architecture, and real-world problem solving.  
+Currently deepening my expertise in the React ecosystem while expanding into backend systems.
 
 ---
 
-### 💡 What I’m Working On
-- Building a **JavaScript projects repository** to document my growth  
-- Learning **React, Node.js, Express & databases** to become full stack ready  
-- Preparing for **internship opportunities** by building impactful projects  
+## 🛠️ What I’m Currently Doing
+
+- Building **production-ready frontend applications** with React & Next.js  
+- Writing **clean, maintainable JavaScript & TypeScript**  
+- Working with APIs, state management, and complex UI logic  
+- Expanding into backend development (Node.js, Express, databases)  
+- Preparing for frontend / full-stack internship opportunities  
 
 ---
 
+## 🎯 Goals for 2026
 
-### 🎯 Goals for 2025
-- Master **JavaScript** (beginner → advanced)   
-- Contribute consistently to GitHub & grow as a engineer  
-  
-
----
-
-## 🌐 Socials
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/theboylexis)  [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/alexmarfoappiah) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@theboylexis) [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:alexmarfo50@gmail.com)  
+- Ship production-ready frontend applications using React & Next.js  
+- Strengthen engineering fundamentals: JavaScript internals, browser behavior, clean architecture  
+- Transition into backend development and deliver full-stack products  
+- Contribute meaningfully to open source and maintain a strong GitHub presence  
+- Become internship-ready as a frontend / junior full-stack engineer  
 
 ---
 
-✨ *Follow my journey as I grow from a beginner into a confident Full Stack Engineer!* 🌍  
+## 💻 Tech Stack
+
+### Frontend
+![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 
-# 💻 Tech Stack:
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)  ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+---
+
+## 🌐 Connect With Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/alexmarfoappiah)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/theboylexis)
+[![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@theboylexis)
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:alexmarfo50@gmail.com)
