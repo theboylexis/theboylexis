@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Alex Marfo Appiah
+# Alex Marfo Appiah
 
 **Backend-focused Full-Stack Engineer** building production-ready systems with JavaScript, Node.js, and modern web technologies.
 
