@@ -8,7 +8,6 @@
 
 - Building [MoMo Parse](https://github.com/yourusername/momo-parse-api) — an open-source API that parses mobile money SMS transactions into structured data
 - Shipping backend services with Python, Node.js, and Express
-- Starting my internship at AmaliTech in May 2026
 
 ---
 
