@@ -1,6 +1,6 @@
 # Alex Marfo Appiah
 
-**Computer Engineering Student** | Backend Engineer | Incoming SWE Intern @ AmaliTech
+**Computer Engineering Student** | Backend Engineer
 
 ---
 
