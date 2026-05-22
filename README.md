@@ -6,7 +6,7 @@ I'm a backend developer and computer engineering student focused on building rel
 ---
 
 ## Currently
-- Interning in **Network Operations**, working on networking systems and infrastructure — including contributing to a team-built **VoIP system (Asterisk)** and a **PRTG network monitoring setup**
+- Interning in **Network Operations**, working on networking systems and infrastructure
 - Building production-grade backend systems with Node.js, Express, and PostgreSQL
 - Leveling up across the stack — from API design to deployment pipelines
 
