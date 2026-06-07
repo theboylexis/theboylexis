@@ -5,7 +5,7 @@ I'm a computer engineering student focused on building reliable, well-structured
 ---
 
 ## Currently
-- Exploring **embedded systems and IoT** through a research collaboration with faculty at KNUST — building a real-time bus passenger detection and accounting system using ESP32
+- Exploring **embedded systems and IoT** through a research collaboration with faculty at KNUST
 - Building production-grade backend systems with Node.js, Express, and PostgreSQL
 - Completed a **Network Operations and Infrastructure internship** at the KNUST UITS Data Center, supporting enterprise network infrastructure and campus connectivity
 - GETFund Scholar, BSc Computer Engineering, KNUST — graduating February 2028
