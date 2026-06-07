@@ -1,5 +1,4 @@
 # Alex Marfo Appiah
-**Computer Engineering Student**
 
 I'm a computer engineering student focused on building reliable, well-structured systems across the stack — from backend APIs to embedded firmware. I care about work that ships, holds up in production, and solves real problems.
 
