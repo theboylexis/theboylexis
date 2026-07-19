@@ -1,16 +1,16 @@
 # Alex Marfo Appiah
 
-I'm a Computer Engineering student focused on building reliable, well-structured systems across the stack — from backend APIs to network infrastructure. I care about work that ships, holds up in production, and solves real problems.
+I'm a Computer Engineering student focused on building reliable, well-structured systems across the stack; from backend APIs to network infrastructure. I care about work that ships, holds up in production, and solves real problems.
 
 ---
 
 ## Currently
 
-- **SEO Africa × Bank of America Fellow** — Technology Stream, preparing for the BofA 2027 Summer Internship application in London
+- **SEO Africa × Bank of America Fellow**; Technology Stream, preparing for the BofA 2027 Summer Internship application in London
 - Building an **AI-powered health chatbot** using the Claude API as a Backend Developer Intern at Voima, a health-focused nonprofit
-- Completed a **Network Operations and Infrastructure internship** at the KNUST UITS Data Center — configured PRTG monitoring across 4,205 devices, built Python automation scripts, and deployed a VoIP system using FreePBX and Asterisk
+- Completed a **Network Operations and Infrastructure internship** at the KNUST UITS Data Center; configured PRTG monitoring across 4,205 devices, built Python automation scripts, and deployed a VoIP system using FreePBX and Asterisk
 - **Technical Lead** at Golden Pacesetters, a student-founded startup offering web and mobile app development services
-- GETFund Scholar, BSc Computer Engineering, KNUST — graduating February 2028
+- GETFund Scholar, BSc Computer Engineering, KNUST; graduating February 2028
 
 ---
 
