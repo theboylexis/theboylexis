@@ -1,16 +1,23 @@
-# Alex Marfo Appiah
+<div align="center">
 
-I'm a Computer Engineering student focused on building reliable, well-structured systems across the stack; from backend APIs to network infrastructure. I care about work that ships, holds up in production, and solves real problems.
+# Hi, I'm Alex Marfo Appiah 👋
+
+### Computer Engineering Student · Backend & Embedded Systems
+
+I'm focused on building reliable, well-structured systems: from backend APIs to network infrastructure to embedded hardware. I care about work that ships, holds up in production, and solves real problems, whether that's a server handling load or a microcontroller reading the physical world.
+
+</div>
 
 ---
 
 ## Currently
 
-- **SEO Africa × Bank of America Fellow**; Technology Stream
-- Building an **AI-powered health chatbot** using the Claude API as a Backend Developer Intern at Voima, a health-focused nonprofit
-- Completed a **Network Operations and Infrastructure internship** at the KNUST UITS Data Center; configured PRTG monitoring across 4,205 devices, built Python automation scripts, and deployed a VoIP system using FreePBX and Asterisk
-- **Technical Lead** at Golden Pacesetters, a student-founded startup offering web and mobile app development services
-- GETFund Scholar, BSc Computer Engineering, KNUST; graduating February 2028
+- 🏦 **SEO Africa × Bank of America Fellow**, Technology Stream
+- 🤖 Built an **AI-powered health chatbot** using the Claude API as a Backend Developer Intern at **Voima**, a health-focused nonprofit. Now in beta testing while the team evaluates alternative model providers
+- 🌐 Completed a **Network Operations and Infrastructure internship** at the KNUST UITS Data Center. Configured PRTG monitoring across 4,205 devices, built Python automation scripts, and deployed a VoIP system using FreePBX and Asterisk
+- 🔧 Exploring **embedded systems** on the side. Sensor-driven ESP32 builds combining hardware I/O with firmware logic, alongside coursework in circuits and digital systems
+- 💼 **Technical Lead** at Golden Pacesetters, a student-founded startup offering web and mobile app development services
+- 🎓 GETFund Scholar, BSc Computer Engineering, KNUST. Graduating February 2028
 
 ---
 
@@ -28,15 +35,24 @@ A production-ready document intelligence API. Upload PDFs, DOCX, or TXT files an
 ## Tech Stack
 
 **Backend**
+
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
+**Embedded & Hardware**
+
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+
 **Databases**
+
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
 **Cloud & Infrastructure**
+
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
@@ -44,15 +60,12 @@ A production-ready document intelligence API. Upload PDFs, DOCX, or TXT files an
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
 **Networking**
+
 ![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
 ![PRTG](https://img.shields.io/badge/PRTG-00A8E0?style=for-the-badge&logoColor=white)
 
-**Embedded & Hardware**
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
-
 **Frontend**
+
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
