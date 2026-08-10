@@ -13,8 +13,6 @@ I'm focused on building reliable, well-structured systems: from backend APIs to 
 ## Currently
 
 - 🏦 **SEO Africa × Bank of America Fellow**, Technology Stream
-- 🤖 Built an **AI-powered health chatbot** using the Claude API as a Backend Developer Intern at **Voima**, a health-focused nonprofit. Now in beta testing while the team evaluates alternative model providers
-- 🌐 Completed a **Network Operations and Infrastructure internship** at the KNUST UITS Data Center. Configured PRTG monitoring across 4,205 devices, built Python automation scripts, and deployed a VoIP system using FreePBX and Asterisk
 - 🔧 Exploring **embedded systems** on the side. Sensor-driven ESP32 builds combining hardware I/O with firmware logic, alongside coursework in circuits and digital systems
 - 💼 **Technical Lead** at Golden Pacesetters, a student-founded startup offering web and mobile app development services
 - 🎓 GETFund Scholar, BSc Computer Engineering, KNUST. Graduating February 2028
