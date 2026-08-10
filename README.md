@@ -4,7 +4,7 @@
 
 ### Computer Engineering Student · Backend & Embedded Systems
 
-I'm focused on building reliable, well-structured systems: from backend APIs to network infrastructure to embedded hardware. I care about work that ships, holds up in production, and solves real problems, whether that's a server handling load or a microcontroller reading the physical world.
+I'm focused on building reliable, well-structured systems: from backend APIs to embedded hardware. I care about work that ships, holds up in production, and solves real problems, whether that's a server handling load or a microcontroller reading the physical world.
 
 </div>
 
