@@ -1,79 +1,76 @@
-<div align="center">
-
 # Hi, I'm Alex Marfo Appiah 👋
 
-### Computer Engineering Student · Hardware Systems & Embedded Engineering
+### Computer Engineering Student · Digital Hardware, FPGA & Embedded Systems
 
-I'm a Computer Engineering student at KNUST focused on building reliable systems
-across hardware and software. I'm currently strengthening my foundations in
-digital systems, embedded systems, computer architecture, and FPGA-based design,
-while building on experience in backend engineering and infrastructure.
-
-</div>
+I'm a Computer Engineering student at KNUST focused on building reliable systems across hardware and software. I'm currently developing my foundations in digital design, RTL, FPGA-based systems, embedded systems, and computer architecture, while building on previous experience in backend engineering and infrastructure.
 
 ---
 
 ## Currently
 
-- 🔧 Exploring **hardware systems, digital design, and FPGA development**
-- ⚡ Building hands-on experience with **embedded systems, hardware I/O, and firmware**
-- 💼 **Technical Lead** at Golden Pacesetters, a student-founded software development startup
-- 🎓 **BSc Computer Engineering, KNUST** · GETFund Scholar · Graduating February 2028
+* 🔧 Building digital systems in Verilog and strengthening RTL design fundamentals
+* ⚡ Developing toward FPGA-based digital design and hardware/software co-design
+* 🧠 Strengthening foundations in digital logic, embedded systems, and computer architecture
+* 💼 Technical Lead at Golden Pacesetters, a student-founded software development startup
+* 🎓 BSc Computer Engineering, KNUST · GETFund Scholar · Graduating February 2028
 
 ---
 
 ## Technical Interests
 
-- Digital hardware & RTL design
-- FPGA development
-- Computer architecture
-- Embedded systems
-- Hardware/software co-design
-- Reliable, performance-oriented systems
+* Digital hardware & RTL design
+* FPGA development
+* Digital logic & computer architecture
+* Embedded systems
+* Hardware/software co-design
+* RTL verification
+* Reliable, performance-oriented systems
 
 ---
 
 ## Selected Project
 
-### [Smart Doc API](https://github.com/theboylexis/smart-doc-api)
+### Hardware Engineering
 
-A production-oriented document intelligence API for processing PDF, DOCX, and TXT
-documents with AI-powered analysis.
+A growing collection of Verilog RTL designs and verification work focused on developing practical digital hardware fundamentals and progressing toward FPGA-based systems.
 
-**Highlights:** JWT authentication · 11 REST endpoints · BullMQ job queues ·
-Redis caching · Webhooks · Rate limiting · CI/CD · Nginx · SSL · AWS EC2 + S3 + IAM
+**Current work:** Full adder · 4-bit ripple-carry adder · Self-checking testbenches · Exhaustive verification
 
-`Node.js` `Express` `PostgreSQL` `Prisma` `Redis` `BullMQ`
-`AWS` `Docker` `Linux`
+`Verilog` `RTL` `Digital Logic` `Icarus Verilog` `FPGA`
 
 ---
 
 ## Technical Skills
 
-**Hardware & Embedded**
+**Digital Hardware**
+`Verilog` `RTL Design` `Digital Logic` `Digital Systems`
 
-`C++` `Embedded Systems` `ESP32` `Digital Systems` `Hardware I/O`
+**Embedded**
+`C++` `ESP32` `Embedded Systems` `Hardware I/O`
 
-**Backend & Systems**
+**Systems**
+`Computer Architecture` `Hardware/Software Co-design`
 
-`Node.js` `Express` `PostgreSQL` `Redis` `Docker`
-`AWS` `Linux` `Nginx`
+**Backend & Software**
+`Python` `Node.js` `Express` `PostgreSQL` `Redis` `JavaScript` `TypeScript`
 
-**Programming**
+**Infrastructure & Tools**
+`AWS` `Docker` `Linux` `Git` `GitHub Actions` `Icarus Verilog` `VS Code`
 
-`C++` `JavaScript` `TypeScript` `Python`
+---
 
-**Networking**
+## Selected Software Experience
 
-`TCP/IP` `Cisco` `Network Operations`
+### Smart Doc API
 
-**Tools**
+A production-oriented document intelligence API for processing PDF, DOCX, and TXT documents with AI-powered analysis.
 
-`Git` `GitHub Actions`
+**Highlights:** JWT authentication · 11 REST endpoints · BullMQ job queues · Redis caching · Webhooks · Rate limiting · CI/CD · Nginx · SSL · AWS EC2 + S3 + IAM
+
+`Node.js` `Express` `PostgreSQL` `Prisma` `Redis` `BullMQ` `AWS` `Docker` `Linux`
 
 ---
 
 ## Connect
 
-[LinkedIn](https://linkedin.com/in/alexmarfoappiah) ·
-[Email](mailto:alexmarfo509@gmail.com)
+[LinkedIn](https://linkedin.com/in/alexmarfoappiah) · [Email](mailto:alexmarfo509@gmail.com)
