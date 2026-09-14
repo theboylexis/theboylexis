@@ -10,7 +10,7 @@ I'm a Computer Engineering student at KNUST focused on building reliable systems
 
 * 🔧 Building digital systems in Verilog and strengthening RTL design fundamentals
 * ⚡ Developing toward FPGA-based digital design and hardware/software co-design
-* 🧠 Strengthening foundations in digital logic, embedded systems, and computer architecture
+* 🧠 Strengthening foundations in digital logic, sequential systems, embedded systems, and computer architecture
 * 💼 Technical Lead at Golden Pacesetters, a student-founded software development startup
 * 🎓 BSc Computer Engineering, KNUST · GETFund Scholar · Graduating February 2028
 
@@ -74,10 +74,12 @@ A growing collection of Verilog RTL designs and verification work focused on dev
 
 * Full Adder
 * 4-bit Ripple-Carry Adder
+* D Flip-Flop
 * Self-checking testbenches
-* Exhaustive verification across all 512 input combinations
+* Exhaustive verification
+* Sequential RTL design
 
-`Verilog` `RTL` `Digital Logic` `Icarus Verilog` `FPGA`
+`Verilog` `RTL` `Digital Logic` `Sequential Logic` `Icarus Verilog` `FPGA`
 
 ---
 
