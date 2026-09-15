@@ -75,6 +75,7 @@ A growing collection of Verilog RTL designs and verification work focused on dev
 * Full Adder
 * 4-bit Ripple-Carry Adder
 * D Flip-Flop
+* 4-bit Register
 * Self-checking testbenches
 * Exhaustive verification
 * Sequential RTL design
