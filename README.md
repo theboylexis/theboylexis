@@ -78,6 +78,7 @@ A growing collection of Verilog RTL designs and verification work focused on dev
 * 4-bit Register
 * 4-bit Counter
 * 4-bit Shift Register
+* 2-state Finite-State Machine
 * Self-checking testbenches
 * Exhaustive verification
 * Sequential RTL design
