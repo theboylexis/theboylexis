@@ -64,29 +64,6 @@ I'm a Computer Engineering student at KNUST focused on building reliable systems
 
 ---
 
-## Selected Hardware Work
-
-### Hardware Engineering
-
-A growing collection of Verilog RTL designs and verification work focused on developing practical digital hardware fundamentals and progressing toward FPGA-based systems.
-
-**Current work:**
-
-* Full Adder
-* 4-bit Ripple-Carry Adder
-* D Flip-Flop
-* 4-bit Register
-* 4-bit Counter
-* 4-bit Shift Register
-* 2-state Finite-State Machine
-* Self-checking testbenches
-* Exhaustive verification
-* Sequential RTL design
-
-`Verilog` `RTL` `Digital Logic` `Sequential Logic` `Icarus Verilog` `FPGA`
-
----
-
 ## Selected Software Experience
 
 ### Smart Doc API
