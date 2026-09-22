@@ -2,15 +2,18 @@
 
 ### Computer Engineering Student · Digital Hardware, FPGA & Embedded Systems
 
-I'm a Computer Engineering student at KNUST focused on building reliable systems across hardware and software. I'm currently developing my foundations in digital design, RTL, FPGA-based systems, embedded systems, and computer architecture, while building on previous experience in backend engineering and infrastructure.
+I'm a Computer Engineering student at KNUST focused on digital hardware, FPGA systems, embedded systems, and computer architecture.
+
+I'm currently building a stronger foundation in RTL design and processor architecture through hands-on Verilog projects, while drawing on previous experience in backend engineering and infrastructure.
 
 ---
 
 ## Currently
 
-* 🔧 Building digital systems in Verilog and strengthening RTL design fundamentals
-* ⚡ Developing toward FPGA-based digital design and hardware/software co-design
-* 🧠 Strengthening foundations in digital logic, sequential systems, embedded systems, and computer architecture
+* 🔧 Designing and verifying a custom synthesizable 8-bit CPU in Verilog
+* ⚡ Building toward FPGA implementation on the Sipeed Tang Nano 20K
+* 🧠 Strengthening foundations in digital logic, RTL design, sequential systems, computer architecture, and embedded systems
+* 🧪 Learning hardware verification through module-level testbenches and simulation with Icarus Verilog
 * 💼 Technical Lead at Golden Pacesetters, a student-founded software development startup
 * 🎓 BSc Computer Engineering, KNUST · GETFund Scholar · Graduating February 2028
 
@@ -19,22 +22,24 @@ I'm a Computer Engineering student at KNUST focused on building reliable systems
 ## Technical Interests
 
 * Digital hardware & RTL design
-* FPGA development
-* Digital logic & computer architecture
+* FPGA systems
+* Processor and computer architecture
+* Digital logic
 * Embedded systems
 * Hardware/software co-design
 * RTL verification
-* Reliable, performance-oriented systems
+* Reliable and performance-oriented systems
 
 ---
 
 ## Hardware & Embedded
 
 <p>
-  <img src="https://img.shields.io/badge/Verilog-000000?style=for-the-badge&logo=verilog&logoColor=white" alt="Verilog"/>
+  <img src="https://img.shields.io/badge/Verilog-000000?style=for-the-badge" alt="Verilog"/>
   <img src="https://img.shields.io/badge/RTL%20Design-000000?style=for-the-badge" alt="RTL Design"/>
   <img src="https://img.shields.io/badge/FPGA-000000?style=for-the-badge" alt="FPGA"/>
   <img src="https://img.shields.io/badge/Digital%20Logic-000000?style=for-the-badge" alt="Digital Logic"/>
+  <img src="https://img.shields.io/badge/Computer%20Architecture-000000?style=for-the-badge" alt="Computer Architecture"/>
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
   <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32"/>
 </p>
@@ -64,6 +69,29 @@ I'm a Computer Engineering student at KNUST focused on building reliable systems
 
 ---
 
+## Featured Hardware Project
+
+### FPGA-Synthesizable 8-Bit CPU
+
+A custom 8-bit processor being designed from scratch in Verilog with a 16-bit instruction format, custom instruction set, register file, ALU, control logic, program memory, and data memory.
+
+The project is being developed incrementally, with each subsystem implemented and verified independently before full CPU integration and FPGA deployment.
+
+**Current progress:**
+
+* Architecture and instruction set defined
+* 8 × 8-bit register file implemented
+* Dual combinational read ports
+* Synchronous write and reset logic
+* Register file verified with a dedicated testbench
+* ALU design and verification in progress
+
+**Target hardware:** Sipeed Tang Nano 20K FPGA
+
+`Verilog` `RTL Design` `Digital Logic` `Computer Architecture` `Icarus Verilog` `FPGA`
+
+---
+
 ## Selected Software Experience
 
 ### Smart Doc API
@@ -73,6 +101,12 @@ A production-oriented document intelligence API for processing PDF, DOCX, and TX
 **Highlights:** JWT authentication · 11 REST endpoints · BullMQ job queues · Redis caching · Webhooks · Rate limiting · CI/CD · Nginx · SSL · AWS EC2 + S3 + IAM
 
 `Node.js` `Express` `PostgreSQL` `Prisma` `Redis` `BullMQ` `AWS` `Docker` `Linux`
+
+---
+
+## What I'm Building Toward
+
+I'm working toward deeper experience in FPGA design, RTL development, processor architecture, and digital hardware systems, with an emphasis on understanding how systems behave below the software abstraction layer.
 
 ---
 
