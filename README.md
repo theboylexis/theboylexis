@@ -4,16 +4,16 @@
 
 I'm a Computer Engineering student at KNUST focused on digital hardware, FPGA systems, embedded systems, and computer architecture.
 
-I'm currently building a stronger foundation in RTL design and processor architecture through hands-on Verilog projects, while drawing on previous experience in backend engineering and infrastructure.
+I'm building a stronger foundation in RTL design, processor architecture, and hardware verification through hands-on Verilog projects, while drawing on previous experience in backend engineering and infrastructure.
 
 ---
 
 ## Currently
 
-* 🔧 Designing and verifying a custom synthesizable 8-bit CPU in Verilog
-* ⚡ Building toward FPGA implementation on the Sipeed Tang Nano 20K
-* 🧠 Strengthening foundations in digital logic, RTL design, sequential systems, computer architecture, and embedded systems
-* 🧪 Learning hardware verification through module-level testbenches and simulation with Icarus Verilog
+* 🔧 Designing and verifying digital hardware in Verilog
+* ⚡ Preparing a custom 8-bit CPU for FPGA implementation on the Sipeed Tang Nano 20K
+* 🧠 Strengthening foundations in RTL design, sequential systems, processor architecture, and embedded systems
+* 🧪 Developing hardware verification skills through module-level and full-system simulation
 * 🎓 BSc Computer Engineering, KNUST · GETFund Scholar · Graduating February 2028
 
 ---
@@ -22,12 +22,12 @@ I'm currently building a stronger foundation in RTL design and processor archite
 
 * Digital hardware & RTL design
 * FPGA systems
-* Processor and computer architecture
+* Processor & computer architecture
 * Digital logic
 * Embedded systems
 * Hardware/software co-design
 * RTL verification
-* Reliable and performance-oriented systems
+* Reliable digital systems
 
 ---
 
@@ -37,7 +37,7 @@ I'm currently building a stronger foundation in RTL design and processor archite
   <img src="https://img.shields.io/badge/Verilog-000000?style=for-the-badge" alt="Verilog"/>
   <img src="https://img.shields.io/badge/RTL%20Design-000000?style=for-the-badge" alt="RTL Design"/>
   <img src="https://img.shields.io/badge/FPGA-000000?style=for-the-badge" alt="FPGA"/>
-  <img src="https://img.shields.io/badge/Digital%20Logic-000000?style=for-the-badge" alt="Digital Logic"/>
+  <img src="https://img.shields.io/badge/Digital%20Design-000000?style=for-the-badge" alt="Digital Design"/>
   <img src="https://img.shields.io/badge/Computer%20Architecture-000000?style=for-the-badge" alt="Computer Architecture"/>
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
   <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32"/>
@@ -72,22 +72,32 @@ I'm currently building a stronger foundation in RTL design and processor archite
 
 ### FPGA-Synthesizable 8-Bit CPU
 
-A custom 8-bit processor being designed from scratch in Verilog with a 16-bit instruction format, custom instruction set, register file, ALU, control logic, program memory, and data memory.
+A custom multi-cycle 8-bit processor designed from scratch in Verilog with a 16-bit instruction format and custom 13-instruction ISA.
 
-The project is being developed incrementally, with each subsystem implemented and verified independently before full CPU integration and FPGA deployment.
+The processor includes an 8 × 8-bit register file, arithmetic logic unit, Program Counter, separate program and data memories, Instruction Register, status register, instruction decoder, multi-cycle control unit, and integrated writeback datapath.
 
-**Current progress:**
+Each subsystem was implemented and verified independently before full CPU integration. The complete ISA has now been exercised through end-to-end simulation using Icarus Verilog.
 
-* Architecture and instruction set defined
-* 8 × 8-bit register file implemented
-* Dual combinational read ports
-* Synchronous write and reset logic
-* Register file verified with a dedicated testbench
-* ALU design and verification in progress
+**Current status:**
 
-**Target hardware:** Sipeed Tang Nano 20K FPGA
+* 8-bit datapath with 16-bit fixed-width instructions
+* 8 general-purpose 8-bit registers
+* Custom 13-instruction ISA
+* Arithmetic and logical operations implemented
+* LOAD and STORE memory operations verified
+* Immediate and register data movement verified
+* CMP, conditional branching, and jump control flow verified
+* Multi-cycle FETCH, DECODE, EXECUTE, MEMORY, WRITEBACK, and HALT control implemented
+* Module-level testbenches completed
+* Full CPU integration verified in simulation
+* 13 / 13 assigned instructions passing end-to-end tests
+* RTL v1.0 checkpoint tagged in Git
 
-`Verilog` `RTL Design` `Digital Logic` `Computer Architecture` `Icarus Verilog` `FPGA`
+**Next phase:** FPGA synthesis, board-level integration, and hardware validation on the Sipeed Tang Nano 20K.
+
+**Repository:** [FPGA-Synthesizable-8Bit-CPU](https://github.com/theboylexis/FPGA-Synthesizable-8Bit-CPU)
+
+`Verilog` `RTL Design` `FPGA` `Digital Design` `Computer Architecture` `Icarus Verilog`
 
 ---
 
@@ -105,7 +115,7 @@ A production-oriented document intelligence API for processing PDF, DOCX, and TX
 
 ## What I'm Building Toward
 
-I'm working toward deeper experience in FPGA design, RTL development, processor architecture, and digital hardware systems, with an emphasis on understanding how systems behave below the software abstraction layer.
+I'm working toward deeper experience in FPGA design, RTL development, processor architecture, and digital hardware systems, with an emphasis on understanding how computing systems are designed and verified below the software abstraction layer.
 
 ---
 
