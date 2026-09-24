@@ -14,7 +14,6 @@ I'm currently building a stronger foundation in RTL design and processor archite
 * ⚡ Building toward FPGA implementation on the Sipeed Tang Nano 20K
 * 🧠 Strengthening foundations in digital logic, RTL design, sequential systems, computer architecture, and embedded systems
 * 🧪 Learning hardware verification through module-level testbenches and simulation with Icarus Verilog
-* 💼 Technical Lead at Golden Pacesetters, a student-founded software development startup
 * 🎓 BSc Computer Engineering, KNUST · GETFund Scholar · Graduating February 2028
 
 ---
