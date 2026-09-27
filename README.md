@@ -1,33 +1,53 @@
 # Hi, I'm Alex Marfo Appiah 👋
 
-### Computer Engineering Student · Digital Hardware, FPGA & Embedded Systems
+### Computer Engineering Student · Hardware, Semiconductor Systems & Backend Engineering
 
-I'm a Computer Engineering student at KNUST focused on digital hardware, FPGA systems, embedded systems, and computer architecture.
+I'm a Computer Engineering student at KNUST interested in understanding computing systems across both hardware and software.
 
-I'm building a stronger foundation in RTL design, processor architecture, and hardware verification through hands-on Verilog projects, while drawing on previous experience in backend engineering and infrastructure.
+On the hardware side, I'm currently building my foundation in **digital design, RTL, FPGA implementation, processor architecture, verification, and embedded systems** as I explore the broader field of **hardware and semiconductor engineering**.
+
+On the software side, I continue to deepen my experience in **backend engineering, distributed systems, cloud infrastructure, APIs, databases, and system design**.
+
+My long-term goal is to develop strong systems-level engineering skills across the hardware–software boundary.
 
 ---
 
 ## Currently
 
-* 🔧 Designing and verifying digital hardware in Verilog
-* ⚡ Preparing a custom 8-bit CPU for FPGA implementation on the Sipeed Tang Nano 20K
-* 🧠 Strengthening foundations in RTL design, sequential systems, processor architecture, and embedded systems
-* 🧪 Developing hardware verification skills through module-level and full-system simulation
-* 🎓 BSc Computer Engineering, KNUST · GETFund Scholar · Graduating February 2028
+- 🔧 Designing and verifying digital hardware in Verilog
+- ⚡ Implementing and validating a custom 8-bit processor for the Sipeed Tang Nano 20K FPGA
+- 🧠 Strengthening foundations in digital logic, RTL design, processor architecture, hardware verification, and embedded systems
+- 💻 Deepening my understanding of backend engineering, APIs, distributed systems, databases, and infrastructure
+- 🔬 Exploring hardware and semiconductor engineering through hands-on digital design and FPGA projects
+- 🎓 BSc Computer Engineering, KNUST · GETFund Scholar · Expected graduation February 2028
 
 ---
 
 ## Technical Interests
 
-* Digital hardware & RTL design
-* FPGA systems
-* Processor & computer architecture
-* Digital logic
-* Embedded systems
-* Hardware/software co-design
-* RTL verification
-* Reliable digital systems
+### Hardware & Semiconductor Engineering
+
+- Digital hardware design
+- RTL design and verification
+- FPGA systems
+- Processor and computer architecture
+- Digital logic
+- Embedded systems
+- Hardware/software co-design
+- Digital IC design
+- Semiconductor engineering
+- Reliable digital systems
+
+### Software & Systems Engineering
+
+- Backend engineering
+- Distributed systems
+- API design
+- Databases
+- Cloud infrastructure
+- System design
+- Asynchronous processing
+- Performance and reliability
 
 ---
 
@@ -72,42 +92,73 @@ I'm building a stronger foundation in RTL design, processor architecture, and ha
 
 ### FPGA-Synthesizable 8-Bit CPU
 
-A custom multi-cycle 8-bit processor designed from scratch in Verilog with a 16-bit instruction format and custom 13-instruction ISA.
+A custom multi-cycle 8-bit processor designed from scratch in Verilog with a 16-bit fixed-width instruction format and a custom 13-instruction ISA.
 
-The processor includes an 8 × 8-bit register file, arithmetic logic unit, Program Counter, separate program and data memories, Instruction Register, status register, instruction decoder, multi-cycle control unit, and integrated writeback datapath.
+The processor includes an 8 × 8-bit register file, ALU, Program Counter, separate program and data memories, Instruction Register, status register, instruction decoder, multi-cycle control unit, and integrated datapath.
 
-Each subsystem was implemented and verified independently before full CPU integration. The complete ISA has now been exercised through end-to-end simulation using Icarus Verilog.
+Each subsystem was implemented and verified independently before full CPU integration. The complete assigned ISA has been exercised through end-to-end simulation using Icarus Verilog, and the design has successfully completed FPGA synthesis for the Sipeed Tang Nano 20K.
+
+**Key features:**
+
+- 8-bit datapath
+- 16-bit fixed-width instructions
+- 8 general-purpose 8-bit registers
+- Custom 13-instruction ISA
+- Arithmetic and logical operations
+- LOAD and STORE memory operations
+- Immediate and register data movement
+- CMP and status flag generation
+- Conditional branching and jump control flow
+- Multi-cycle FETCH, DECODE, EXECUTE, MEMORY, WRITEBACK, and HALT sequencing
+- Module-level verification
+- Full CPU integration testing
+- 13 / 13 assigned instructions verified end-to-end
+- FPGA synthesis completed successfully for the Sipeed Tang Nano 20K
+- RTL v1.0 development checkpoint
 
 **Current status:**
 
-* 8-bit datapath with 16-bit fixed-width instructions
-* 8 general-purpose 8-bit registers
-* Custom 13-instruction ISA
-* Arithmetic and logical operations implemented
-* LOAD and STORE memory operations verified
-* Immediate and register data movement verified
-* CMP, conditional branching, and jump control flow verified
-* Multi-cycle FETCH, DECODE, EXECUTE, MEMORY, WRITEBACK, and HALT control implemented
-* Module-level testbenches completed
-* Full CPU integration verified in simulation
-* 13 / 13 assigned instructions passing end-to-end tests
-* RTL v1.0 checkpoint tagged in Git
+- RTL implementation complete
+- Module-level and full-system simulation passing
+- Complete 13-instruction ISA verified
+- FPGA synthesis completed successfully for the Tang Nano 20K
+- Preparing for board-level implementation and hardware validation
 
-**Next phase:** FPGA synthesis, board-level integration, and hardware validation on the Sipeed Tang Nano 20K.
+**Next phase:**
+
+- FPGA board-level implementation
+- Pin and clock integration
+- Hardware validation on the Sipeed Tang Nano 20K
+- Debugging and refinement based on physical FPGA behavior
 
 **Repository:** [FPGA-Synthesizable-8Bit-CPU](https://github.com/theboylexis/FPGA-Synthesizable-8Bit-CPU)
 
-`Verilog` `RTL Design` `FPGA` `Digital Design` `Computer Architecture` `Icarus Verilog`
+`Verilog` `RTL Design` `FPGA` `Digital Design` `Computer Architecture` `Processor Design` `Icarus Verilog`
 
 ---
 
-## Selected Software Experience
+## Selected Software Project
 
 ### Smart Doc API
 
-A production-oriented document intelligence API for processing PDF, DOCX, and TXT documents with AI-powered analysis.
+A production-oriented document intelligence backend for processing PDF, DOCX, and TXT documents with AI-powered analysis.
 
-**Highlights:** JWT authentication · 11 REST endpoints · BullMQ job queues · Redis caching · Webhooks · Rate limiting · CI/CD · Nginx · SSL · AWS EC2 + S3 + IAM
+The project focuses on backend architecture, asynchronous processing, authentication, infrastructure, and production deployment.
+
+**Highlights:**
+
+- JWT authentication
+- 11 REST endpoints
+- BullMQ job queues
+- Redis caching
+- Webhooks
+- Rate limiting
+- PostgreSQL
+- CI/CD
+- Nginx
+- SSL
+- AWS EC2, S3, and IAM
+- Docker-based deployment
 
 `Node.js` `Express` `PostgreSQL` `Prisma` `Redis` `BullMQ` `AWS` `Docker` `Linux`
 
@@ -115,7 +166,11 @@ A production-oriented document intelligence API for processing PDF, DOCX, and TX
 
 ## What I'm Building Toward
 
-I'm working toward deeper experience in FPGA design, RTL development, processor architecture, and digital hardware systems, with an emphasis on understanding how computing systems are designed and verified below the software abstraction layer.
+I'm working toward deeper expertise in **hardware and semiconductor engineering**, beginning with digital design, RTL development, FPGA systems, processor architecture, and verification.
+
+At the same time, I'm continuing to strengthen my background in **backend and systems engineering**, particularly in distributed systems, infrastructure, databases, APIs, and reliable software architecture.
+
+I'm especially interested in the boundary between hardware and software: how processors are designed, how low-level systems behave, and how software ultimately interacts with the hardware beneath it.
 
 ---
 
