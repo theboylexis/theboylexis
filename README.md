@@ -4,93 +4,97 @@
 
 ### Computer Engineering · Digital Hardware · FPGA · Backend Systems
 
-Building across the hardware–software boundary.
+Building and learning across the **hardware–software boundary**.
 
 <p>
   <img src="https://img.shields.io/badge/Verilog-000000?style=for-the-badge" alt="Verilog"/>
   <img src="https://img.shields.io/badge/FPGA-111111?style=for-the-badge" alt="FPGA"/>
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
 </p>
 
-BSc Computer Engineering @ **KNUST**  
-Expected graduation: **February 2028**
+**BSc Computer Engineering @ KNUST**  
+GETFund Scholar · Expected graduation **February 2028**
 
 </div>
 
 ---
 
-## Featured Work
+## About Me
+
+I'm a Computer Engineering student interested in how computing systems work from **RTL and processor architecture through software infrastructure and distributed systems**.
+
+My current hardware focus is on **digital design, FPGA systems, RTL verification, computer architecture, and embedded systems**, while I continue developing experience in **backend engineering, databases, cloud infrastructure, and system design**.
+
+---
+
+## Featured Projects
 
 ### ⚡ [FPGA-Synthesizable 8-Bit CPU](https://github.com/theboylexis/FPGA-Synthesizable-8Bit-CPU)
 
-> Custom multi-cycle processor designed from RTL through physical FPGA validation.
+A custom multi-cycle **8-bit processor designed from scratch in Verilog**, verified in simulation, synthesized, implemented, and physically validated on a **Sipeed Tang Nano 20K FPGA**.
 
-**What I built**
+**Highlights**
 
-- 8-bit datapath
-- 16-bit fixed-width instructions
+- 8-bit datapath with 16-bit fixed-width instructions
 - custom 13-instruction ISA
-- register file, ALU, memories, status flags, decoder, and control FSM
-- full processor integration in Verilog
+- register file, ALU, memories, status flags, instruction decoder, and multi-cycle control FSM
+- module-level and full-processor verification using Icarus Verilog
+- 13 / 13 assigned instructions verified end-to-end in simulation
+- synthesis and Place & Route using GOWIN EDA
+- physical FPGA validation of arithmetic, memory, logic, and control-flow behavior
+- hardware bring-up involving LED debugging, asynchronous input synchronization, and pushbutton debounce logic
 
-**Verification & hardware**
-
-- 13 / 13 assigned instructions verified in simulation
-- synthesized and placed/routed with GOWIN EDA
-- programmed on a **Sipeed Tang Nano 20K**
-- physically validated with arithmetic, memory, logic, and control-flow programs
-- hardware bring-up included LED debugging, input synchronization, and switch debounce
-
-`Verilog` `RTL` `FPGA` `Computer Architecture` `Icarus Verilog` `GOWIN EDA`
+`Verilog` `RTL Design` `FPGA` `Computer Architecture` `Icarus Verilog` `GOWIN EDA`
 
 ---
 
 ### 💻 [Smart Doc API](https://github.com/theboylexis/SMART-DOC-API)
 
-> Backend document-processing system focused on asynchronous workflows and production deployment.
+A production-oriented document intelligence backend for processing **PDF, DOCX, and TXT** documents through asynchronous workflows and AI-powered analysis.
 
 **Highlights**
 
-- JWT authentication
-- REST APIs
-- PostgreSQL
+- JWT authentication and REST APIs
+- PostgreSQL persistence
 - Redis caching
-- BullMQ job queues
-- asynchronous processing
-- AWS EC2 and S3
-- Docker
-- Nginx
-- SSL
-- CI/CD
+- BullMQ background job processing
+- webhooks and rate limiting
+- Docker-based deployment
+- AWS EC2, S3, and IAM
+- Nginx and SSL
+- CI/CD workflow
 
-The project was deployed on AWS during development. The live infrastructure is currently offline to avoid unnecessary portfolio hosting costs.
+The application was deployed on AWS during development. The live infrastructure is currently offline to avoid unnecessary hosting costs for a portfolio project.
 
-`Node.js` `Express` `PostgreSQL` `Redis` `BullMQ` `AWS` `Docker`
+`Node.js` `Express` `PostgreSQL` `Redis` `BullMQ` `AWS` `Docker` `Linux`
 
 ---
 
 ## Engineering Focus
 
-| Hardware | Software |
+| Hardware & Computer Engineering | Software & Systems Engineering |
 | --- | --- |
-| RTL design | Backend engineering |
-| FPGA systems | Distributed systems |
-| Computer architecture | APIs |
-| Embedded systems | Databases |
-| Verification | Cloud infrastructure |
+| Digital design | Backend engineering |
+| RTL design & verification | Distributed systems |
+| FPGA systems | API design |
+| Computer architecture | Databases |
+| Embedded systems | Cloud infrastructure |
 | Hardware/software co-design | System design |
+| Digital IC design | Performance & reliability |
 
 ---
 
 ## Currently Exploring
 
-- FPGA and RTL development
-- computer architecture
-- embedded systems
-- semiconductor engineering
-- backend and systems engineering
+**Hardware:** FPGA development · RTL verification · Computer architecture · Embedded systems · Semiconductor engineering
+
+**Software:** Backend systems · Distributed systems · Cloud infrastructure · Databases · System design
 
 ---
 
