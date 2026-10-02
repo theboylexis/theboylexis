@@ -4,6 +4,14 @@ Computer Engineering student at **KNUST** interested in **digital hardware, FPGA
 
 I enjoy building systems across the hardware–software boundary, from RTL and processor design to backend infrastructure and distributed systems.
 
+<p>
+  <img src="https://img.shields.io/badge/Verilog-000000?style=flat-square" alt="Verilog"/>
+  <img src="https://img.shields.io/badge/FPGA-000000?style=flat-square" alt="FPGA"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+</p>
+
 ---
 
 ## Featured Projects
@@ -66,12 +74,6 @@ The project was deployed on AWS during development; the live infrastructure has 
 - Databases
 - Cloud infrastructure
 - System design
-
----
-
-## Tools
-
-`Verilog` `C++` `Python` `JavaScript` `TypeScript` `Node.js` `PostgreSQL` `Redis` `AWS` `Docker` `Linux` `Git`
 
 ---
 
