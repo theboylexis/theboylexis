@@ -1,41 +1,43 @@
 # Hi, I'm Alex Marfo Appiah 👋
 
-### Computer Engineering Student · Hardware, Semiconductor Systems & Backend Engineering
+<img align="right" width="180" src="https://github.com/theboylexis.png" alt="Alex Marfo Appiah"/>
 
-I'm a Computer Engineering student at KNUST interested in understanding computing systems across both hardware and software.
+### Computer Engineering Student · Digital Hardware · FPGA · Backend Systems
 
-On the hardware side, I'm currently building my foundation in **digital design, RTL, FPGA implementation, processor architecture, verification, and embedded systems** as I explore the broader field of **hardware and semiconductor engineering**.
+I'm a Computer Engineering student at **KNUST** interested in understanding computing systems across the hardware–software boundary.
 
-On the software side, I continue to deepen my experience in **backend engineering, distributed systems, cloud infrastructure, APIs, databases, and system design**.
+On the hardware side, I'm building experience in **digital design, RTL, FPGA implementation, processor architecture, verification, embedded systems, and computer architecture** as I explore hardware and semiconductor engineering.
 
-My long-term goal is to develop strong systems-level engineering skills across the hardware–software boundary.
+On the software side, I work with **backend systems, APIs, databases, cloud infrastructure, asynchronous processing, and distributed systems**.
+
+My long-term goal is to develop strong systems-level engineering skills spanning both hardware and software.
+
+<br clear="right"/>
 
 ---
 
 ## Currently
 
-- 🔧 Designing and verifying digital hardware in Verilog
-- ⚡ Implementing and validating a custom 8-bit processor for the Sipeed Tang Nano 20K FPGA
-- 🧠 Strengthening foundations in digital logic, RTL design, processor architecture, hardware verification, and embedded systems
-- 💻 Deepening my understanding of backend engineering, APIs, distributed systems, databases, and infrastructure
-- 🔬 Exploring hardware and semiconductor engineering through hands-on digital design and FPGA projects
+- ⚡ Building and validating digital hardware using Verilog and FPGAs
+- 🧠 Strengthening my foundations in RTL design, computer architecture, verification, and embedded systems
+- 🔬 Exploring hardware and semiconductor engineering through hands-on projects
+- 💻 Deepening my understanding of backend systems, APIs, databases, distributed systems, and infrastructure
 - 🎓 BSc Computer Engineering, KNUST · GETFund Scholar · Expected graduation February 2028
 
 ---
 
 ## Technical Interests
 
-### Hardware & Semiconductor Engineering
+### Hardware & Computer Engineering
 
 - Digital hardware design
 - RTL design and verification
 - FPGA systems
 - Processor and computer architecture
-- Digital logic
 - Embedded systems
 - Hardware/software co-design
 - Digital IC design
-- Semiconductor engineering
+- Semiconductor systems
 - Reliable digital systems
 
 ### Software & Systems Engineering
@@ -83,69 +85,108 @@ My long-term goal is to develop strong systems-level engineering skills across t
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
   <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
   <img src="https://img.shields.io/badge/Icarus%20Verilog-000000?style=for-the-badge" alt="Icarus Verilog"/>
+  <img src="https://img.shields.io/badge/GOWIN%20EDA-000000?style=for-the-badge" alt="GOWIN EDA"/>
   <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
 </p>
 
 ---
 
-## Featured Hardware Project
+# Featured Projects
 
-### FPGA-Synthesizable 8-Bit CPU
+## ⚡ FPGA-Synthesizable 8-Bit CPU
 
-A custom multi-cycle 8-bit processor designed from scratch in Verilog with a 16-bit fixed-width instruction format and a custom 13-instruction ISA.
+A custom multi-cycle 8-bit processor designed from scratch in Verilog, verified end-to-end in simulation, and physically validated on a **Sipeed Tang Nano 20K FPGA**.
 
-The processor includes an 8 × 8-bit register file, ALU, Program Counter, separate program and data memories, Instruction Register, status register, instruction decoder, multi-cycle control unit, and integrated datapath.
+The processor uses an **8-bit datapath**, **16-bit fixed-width instructions**, and a custom **13-instruction ISA**.
 
-Each subsystem was implemented and verified independently before full CPU integration. The complete assigned ISA has been exercised through end-to-end simulation using Icarus Verilog, and the design has successfully completed FPGA synthesis for the Sipeed Tang Nano 20K.
+### Architecture
 
-**Key features:**
+The CPU includes:
 
-- 8-bit datapath
-- 16-bit fixed-width instructions
-- 8 general-purpose 8-bit registers
-- Custom 13-instruction ISA
-- Arithmetic and logical operations
-- LOAD and STORE memory operations
-- Immediate and register data movement
-- CMP and status flag generation
-- Conditional branching and jump control flow
-- Multi-cycle FETCH, DECODE, EXECUTE, MEMORY, WRITEBACK, and HALT sequencing
-- Module-level verification
-- Full CPU integration testing
-- 13 / 13 assigned instructions verified end-to-end
-- FPGA synthesis completed successfully for the Sipeed Tang Nano 20K
-- RTL v1.0 development checkpoint
+- 8 × 8-bit general-purpose register file
+- Arithmetic Logic Unit
+- Program Counter
+- Instruction Register
+- Separate program and data memories
+- Status register with Zero, Negative, and Carry/Borrow flags
+- Instruction decoder
+- Multi-cycle control unit
+- Writeback datapath
 
-**Current status:**
+### ISA
 
-- RTL implementation complete
-- Module-level and full-system simulation passing
-- Complete 13-instruction ISA verified
-- FPGA synthesis completed successfully for the Tang Nano 20K
-- Preparing for board-level implementation and hardware validation
+The processor supports:
 
-**Next phase:**
+```text
+HALT
+ADD
+SUB
+AND
+OR
+XOR
+MOV
+LOAD
+STORE
+CMP
+JMP
+BEQ
+LDI
+```
 
-- FPGA board-level implementation
-- Pin and clock integration
-- Hardware validation on the Sipeed Tang Nano 20K
-- Debugging and refinement based on physical FPGA behavior
+### Verification
+
+Each major RTL subsystem was verified independently before full processor integration.
+
+The complete CPU was then exercised through end-to-end machine-code programs using **Icarus Verilog**.
+
+**13 / 13 assigned instructions were verified in simulation.**
+
+### FPGA Implementation
+
+The processor was synthesized and implemented for the **Tang Nano 20K** using GOWIN EDA.
+
+Physical FPGA bring-up included:
+
+- 27 MHz onboard clock integration
+- board-level pin constraints
+- SRAM programming through the onboard debugger
+- onboard LED register inspection
+- pushbutton synchronization
+- mechanical switch debounce logic
+- arithmetic hardware validation
+- memory and data-movement validation
+- logic and control-flow validation
+
+Three hardware programs collectively exercised all 13 assigned instructions on the physical FPGA.
+
+Observed architectural state matched the expected simulation results.
+
+### Hardware Validation Status
+
+```text
+RTL design                  ✅
+Module verification         ✅
+CPU integration             ✅
+Full ISA simulation         ✅
+FPGA synthesis              ✅
+Place & Route               ✅
+FPGA programming            ✅
+Physical hardware validation ✅
+```
 
 **Repository:** [FPGA-Synthesizable-8Bit-CPU](https://github.com/theboylexis/FPGA-Synthesizable-8Bit-CPU)
 
-`Verilog` `RTL Design` `FPGA` `Digital Design` `Computer Architecture` `Processor Design` `Icarus Verilog`
+`Verilog` `RTL Design` `FPGA` `Digital Design` `Computer Architecture` `Processor Design` `Icarus Verilog` `GOWIN EDA`
 
 ---
 
-## Selected Software Project
-
-### Smart Doc API
+## 💻 Smart Doc API
 
 A production-oriented document intelligence backend for processing PDF, DOCX, and TXT documents with AI-powered analysis.
 
-The project focuses on backend architecture, asynchronous processing, authentication, infrastructure, and production deployment.
+The project focuses on backend architecture, asynchronous processing, authentication, infrastructure, and deployment.
 
-**Highlights:**
+### Highlights
 
 - JWT authentication
 - 11 REST endpoints
@@ -166,11 +207,11 @@ The project focuses on backend architecture, asynchronous processing, authentica
 
 ## What I'm Building Toward
 
-I'm working toward deeper expertise in **hardware and semiconductor engineering**, beginning with digital design, RTL development, FPGA systems, processor architecture, and verification.
+I'm working toward deeper expertise in **digital hardware, computer architecture, FPGA systems, RTL design, verification, embedded systems, and semiconductor engineering**.
 
-At the same time, I'm continuing to strengthen my background in **backend and systems engineering**, particularly in distributed systems, infrastructure, databases, APIs, and reliable software architecture.
+At the same time, I'm continuing to strengthen my background in **backend and systems engineering**, particularly distributed systems, infrastructure, databases, APIs, and reliable software architecture.
 
-I'm especially interested in the boundary between hardware and software: how processors are designed, how low-level systems behave, and how software ultimately interacts with the hardware beneath it.
+I'm especially interested in the boundary between hardware and software — how processors are designed, how low-level systems behave, and how software ultimately interacts with the hardware beneath it.
 
 ---
 
