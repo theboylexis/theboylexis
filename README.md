@@ -2,7 +2,7 @@
 
 # Alex Marfo Appiah
 
-### Computer Engineering · Digital Hardware · FPGA · Backend Systems
+### Computer Engineering · Computer Architecture · RTL/FPGA · Systems Engineering
 
 Building and learning across the **hardware–software boundary**.
 
@@ -27,9 +27,11 @@ GETFund Scholar · Expected graduation **February 2028**
 
 ## About Me
 
-I'm a Computer Engineering student interested in how computing systems work from **RTL and processor architecture through software infrastructure and distributed systems**.
+I'm a Computer Engineering student focused on understanding computing systems from **processor architecture and RTL implementation through embedded and systems software**.
 
-My current hardware focus is on **digital design, FPGA systems, RTL verification, computer architecture, and embedded systems**, while I continue developing experience in **backend engineering, databases, cloud infrastructure, and system design**.
+My primary technical direction is **computer architecture and digital hardware**, with current work spanning RTL design, FPGA systems, processor design, verification, and embedded computing.
+
+I also have experience in backend engineering, databases, cloud infrastructure, and distributed systems, which gives me a broader perspective on how hardware and software interact across the computing stack.
 
 ---
 
@@ -37,7 +39,7 @@ My current hardware focus is on **digital design, FPGA systems, RTL verification
 
 ### ⚡ [FPGA-Synthesizable 8-Bit CPU](https://github.com/theboylexis/FPGA-Synthesizable-8Bit-CPU)
 
-A custom multi-cycle **8-bit processor designed from scratch in Verilog**, verified in simulation, synthesized, implemented, and physically validated on a **Sipeed Tang Nano 20K FPGA**.
+A custom multi-cycle **8-bit processor designed and implemented in Verilog**, verified in simulation, synthesized, implemented, and physically validated on a **Sipeed Tang Nano 20K FPGA**.
 
 **Highlights**
 
@@ -76,25 +78,25 @@ The application was deployed on AWS during development. The live infrastructure 
 
 ---
 
-## Engineering Focus
+## Technical Areas
 
-| Hardware & Computer Engineering | Software & Systems Engineering |
+| Computer Architecture & Hardware | Software & Systems |
 | --- | --- |
-| Digital design | Backend engineering |
+| Computer architecture | Backend engineering |
 | RTL design & verification | Distributed systems |
 | FPGA systems | API design |
-| Computer architecture | Databases |
+| Digital system design | Databases |
 | Embedded systems | Cloud infrastructure |
 | Hardware/software co-design | System design |
-| Digital IC design | Performance & reliability |
+| Digital IC design | Reliability & performance |
 
 ---
 
 ## Currently Exploring
 
-**Hardware:** FPGA development · RTL verification · Computer architecture · Embedded systems · Semiconductor engineering
+**Current focus:** Computer architecture · RISC-V · RTL design & verification · FPGA systems · Digital IC design
 
-**Software:** Backend systems · Distributed systems · Cloud infrastructure · Databases · System design
+**Broader systems interests:** Embedded computing · Hardware/software co-design · Backend systems · Distributed systems
 
 ---
 
