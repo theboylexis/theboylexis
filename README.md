@@ -33,7 +33,7 @@ My primary technical direction is **computer architecture and digital hardware**
 
 I am also interested in adjacent areas including **hardware accelerators, memory systems, digital IC design, hardware security, embedded computing, and hardware/software co-design**.
 
-Alongside hardware, I have experience in backend engineering, databases, cloud infrastructure, and distributed systems, giving me a broader systems perspective across both hardware and software.
+Alongside hardware, I have experience in backend engineering, databases and cloud infrastructure, giving me a broader systems perspective across both hardware and software.
 
 ---
 
