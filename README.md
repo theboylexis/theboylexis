@@ -2,9 +2,9 @@
 
 # Alex Marfo Appiah
 
-### Computer Engineering · Computer Architecture · RTL/FPGA · Systems Engineering
+### Computer Engineering · Computer Architecture · RTL/FPGA · Hardware Systems
 
-Building and learning across the **hardware–software boundary**.
+Building across the **hardware–software boundary**, with a growing focus on processor design, digital hardware, and efficient computing systems.
 
 <p>
   <img src="https://img.shields.io/badge/Verilog-000000?style=for-the-badge" alt="Verilog"/>
@@ -27,11 +27,13 @@ GETFund Scholar · Expected graduation **February 2028**
 
 ## About Me
 
-I'm a Computer Engineering student focused on understanding computing systems from **processor architecture and RTL implementation through embedded and systems software**.
+I'm a Computer Engineering student interested in how computing systems are designed and optimized across layers, from **processor architecture and RTL implementation to embedded and systems software**.
 
-My primary technical direction is **computer architecture and digital hardware**, with current work spanning RTL design, FPGA systems, processor design, verification, and embedded computing.
+My primary technical direction is **computer architecture and digital hardware**, with a focus on processor design, RTL, FPGA systems, verification, and performance-oriented hardware development.
 
-I also have experience in backend engineering, databases, cloud infrastructure, and distributed systems, which gives me a broader perspective on how hardware and software interact across the computing stack.
+I am also interested in adjacent areas including **hardware accelerators, memory systems, digital IC design, hardware security, embedded computing, and hardware/software co-design**.
+
+Alongside hardware, I have experience in backend engineering, databases, cloud infrastructure, and distributed systems, giving me a broader systems perspective across both hardware and software.
 
 ---
 
@@ -39,20 +41,23 @@ I also have experience in backend engineering, databases, cloud infrastructure, 
 
 ### ⚡ [FPGA-Synthesizable 8-Bit CPU](https://github.com/theboylexis/FPGA-Synthesizable-8Bit-CPU)
 
-A custom multi-cycle **8-bit processor designed and implemented in Verilog**, verified in simulation, synthesized, implemented, and physically validated on a **Sipeed Tang Nano 20K FPGA**.
+A custom multi-cycle **8-bit processor designed and implemented in Verilog**, verified in simulation, synthesized, placed and routed, and physically validated on a **Sipeed Tang Nano 20K FPGA**.
 
 **Highlights**
 
 - 8-bit datapath with 16-bit fixed-width instructions
 - custom 13-instruction ISA
+- 8 general-purpose registers
 - register file, ALU, memories, status flags, instruction decoder, and multi-cycle control FSM
 - module-level and full-processor verification using Icarus Verilog
-- 13 / 13 assigned instructions verified end-to-end in simulation
+- 13 / 13 ISA instructions verified end-to-end
 - synthesis and Place & Route using GOWIN EDA
-- physical FPGA validation of arithmetic, memory, logic, and control-flow behavior
-- hardware bring-up involving LED debugging, asynchronous input synchronization, and pushbutton debounce logic
+- physical validation of arithmetic, logic, memory, and control-flow behavior
+- LED/register debugging interface
+- asynchronous input synchronization and pushbutton debounce logic
+- multiple FPGA test programs with hardware behavior matching simulation
 
-`Verilog` `RTL Design` `FPGA` `Computer Architecture` `Icarus Verilog` `GOWIN EDA`
+`Verilog` `RTL Design` `FPGA` `Processor Design` `Computer Architecture` `Icarus Verilog` `GOWIN EDA`
 
 ---
 
@@ -78,25 +83,75 @@ The application was deployed on AWS during development. The live infrastructure 
 
 ---
 
-## Technical Areas
+## Technical Focus
 
-| Computer Architecture & Hardware | Software & Systems |
-| --- | --- |
-| Computer architecture | Backend engineering |
-| RTL design & verification | Distributed systems |
-| FPGA systems | API design |
-| Digital system design | Databases |
-| Embedded systems | Cloud infrastructure |
-| Hardware/software co-design | System design |
-| Digital IC design | Reliability & performance |
+### Computer Architecture & Digital Hardware
+
+- Processor architecture
+- RTL design and verification
+- FPGA systems
+- Digital system design
+- RISC-V
+- Memory systems
+- Hardware accelerators
+- Hardware/software co-design
+- Digital IC design
+- Hardware security
+- Embedded computing
+
+### Software & Systems
+
+- Backend engineering
+- Distributed systems
+- API design
+- Databases
+- Cloud infrastructure
+- Linux
+- System design
+- Reliability and performance
 
 ---
 
-## Currently Exploring
+## Current Direction
 
-**Current focus:** Computer architecture · RISC-V · RTL design & verification · FPGA systems · Digital IC design
+My next major technical step is moving from a custom educational processor toward **RISC-V-based architecture development**.
 
-**Broader systems interests:** Embedded computing · Hardware/software co-design · Backend systems · Distributed systems
+Planned progression:
+
+**Custom 8-bit CPU**  
+→ **RV32I single-cycle processor**  
+→ **5-stage pipelined processor**  
+→ **forwarding and hazard handling**  
+→ **branch handling and pipeline control**  
+→ **FPGA implementation**  
+→ **timing, resource, and performance analysis**  
+→ **research-oriented architectural extensions**
+
+Possible later directions include:
+
+- cache and memory-system experimentation
+- branch prediction
+- custom RISC-V instructions
+- hardware accelerators
+- RISC-V + ML acceleration
+- hardware/software co-design
+- secure processor architecture
+- performance / area / power trade-off studies
+
+---
+
+## Engineering Approach
+
+I prefer a small number of **deep, technically rigorous projects** over a large collection of shallow ones.
+
+My goal is to use each project to develop a stronger understanding of:
+
+- architecture and design trade-offs
+- verification
+- FPGA implementation
+- quantitative performance analysis
+- hardware/software interaction
+- research-oriented experimentation
 
 ---
 
