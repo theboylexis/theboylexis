@@ -5,9 +5,10 @@
 
 ### Computer Engineering · Computer Architecture · RTL/FPGA · Hardware Systems
 
-Exploring the **hardware–software boundary** through digital hardware, processor design, and systems engineering.
+Exploring the **hardware–software boundary** through digital hardware, processor architecture, and systems engineering.
 
 <p>
+  <img src="https://img.shields.io/badge/SystemVerilog-242424?style=for-the-badge" alt="SystemVerilog"/>
   <img src="https://img.shields.io/badge/Verilog-000000?style=for-the-badge" alt="Verilog"/>
   <img src="https://img.shields.io/badge/FPGA-111111?style=for-the-badge" alt="FPGA"/>
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
@@ -18,7 +19,7 @@ Exploring the **hardware–software boundary** through digital hardware, process
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
 </p>
 
-**BSc Computer Engineering @ KNUST**  
+**BSc Computer Engineering | KNUST**  
 GETFund Scholar · Expected Graduation: February 2028
 
 </div>
@@ -27,11 +28,13 @@ GETFund Scholar · Expected Graduation: February 2028
 
 ## About Me
 
-I'm a Computer Engineering undergraduate at KNUST with hands-on experience in **digital hardware, FPGA development, embedded systems, and backend engineering**.
+I'm a Computer Engineering undergraduate at the **Kwame Nkrumah University of Science and Technology (KNUST), Ghana**, with practical experience in digital hardware design, FPGA development, embedded systems, and backend software engineering.
 
-My primary technical interests lie in **computer architecture and hardware systems**, particularly processor design, RTL development, verification, and FPGA implementation. I'm also exploring adjacent areas such as hardware accelerators, VLSI, hardware security, and hardware/software co-design.
+My primary interests are in **computer architecture and hardware systems**, particularly processor microarchitecture, RTL design, functional verification, and FPGA implementation.
 
-Beyond hardware, I have some experience building backend systems and working with cloud infrastructure, giving me a broader perspective on computing across hardware and software layers.
+I'm currently strengthening my foundations in RISC-V architecture and SystemVerilog while exploring research directions in hardware accelerators, VLSI/EDA, hardware security, and hardware/software co-design.
+
+My software engineering background complements these interests, particularly in understanding computing systems across hardware and software layers.
 
 ---
 
@@ -39,23 +42,36 @@ Beyond hardware, I have some experience building backend systems and working wit
 
 ### ⚡ [FPGA-Synthesizable 8-Bit CPU](https://github.com/theboylexis/FPGA-Synthesizable-8Bit-CPU)
 
-A custom **8-bit multi-cycle processor** designed in Verilog and physically implemented on a **Sipeed Tang Nano 20K FPGA**.
+An independently developed **8-bit multi-cycle processor** designed in Verilog and physically implemented on a **Sipeed Tang Nano 20K FPGA**.
 
-- Custom 13-instruction ISA and FSM-based control architecture
-- Module-level and end-to-end verification of all 13 instructions
-- FPGA synthesis, Place & Route, and physical hardware validation
-- LED debugging interface, input synchronization, and debounce logic
+- Designed a custom 13-instruction ISA with an FSM-based control architecture.
+- Implemented the datapath, register file, ALU, memory, and control logic.
+- Verified all 13 instructions through module-level and end-to-end simulation.
+- Completed FPGA synthesis, Place & Route, and physical hardware validation.
+- Implemented an LED/register debugging interface with pushbutton synchronization and debounce logic.
 
-`Verilog` `RTL Design` `FPGA` `Computer Architecture`
+`Verilog` `RTL Design` `FPGA` `Processor Design` `Functional Verification`
+
+### 🔧 [RV32I Processor](https://github.com/theboylexis/RV32I-Processor) — In Progress
+
+An ongoing **32-bit RISC-V processor development project** focused on single-cycle and pipelined microarchitectures, RTL verification, and FPGA performance analysis.
+
+- Implemented foundational SystemVerilog modules, including the PC, register file, ALU, immediate generator, instruction decoder, and memory subsystem.
+- Developed self-checking unit testbenches covering arithmetic, logical, memory, and control functionality.
+- Integrated an initial single-cycle datapath and successfully executed a six-instruction test program.
+- Working toward broader RV32I instruction support, control-flow handling, and comprehensive processor verification.
+- Planning a five-stage pipelined implementation and comparative FPGA performance analysis.
+
+`SystemVerilog` `RISC-V` `Computer Architecture` `RTL Verification` `FPGA`
 
 ### 💻 [Smart Doc API](https://github.com/theboylexis/SMART-DOC-API)
 
 A document intelligence backend supporting asynchronous processing and AI-powered analysis of PDF, DOCX, and TXT files.
 
-- REST APIs, JWT authentication, and PostgreSQL
-- Redis caching and BullMQ background processing
-- Docker-based deployment on AWS EC2 with S3 integration
-- Nginx, SSL, and CI/CD
+- Developed REST APIs with JWT authentication and PostgreSQL.
+- Implemented Redis caching and BullMQ background processing.
+- Integrated AWS S3 for file storage and deployed using Docker on AWS EC2.
+- Configured Nginx, SSL, and CI/CD workflows.
 
 `Node.js` `Express` `PostgreSQL` `Redis` `AWS` `Docker`
 
@@ -65,9 +81,15 @@ A document intelligence backend supporting asynchronous processing and AI-powere
 
 **Computer Architecture & Hardware Systems**
 
-Building toward deeper expertise in RISC-V processor design, RTL verification, FPGA performance analysis, and research-oriented hardware development.
+Currently developing deeper technical competence in:
 
-**Broader Interests:** Hardware Accelerators · VLSI/EDA · Hardware Security · Embedded Systems · Hardware/Software Co-design
+- RISC-V processor design and microarchitecture
+- SystemVerilog RTL development and functional verification
+- FPGA implementation, synthesis, and timing analysis
+- Computer architecture fundamentals and performance evaluation
+- Research methodology and experimental hardware design
+
+**Broader Research Interests:** Hardware Accelerators · VLSI/EDA · Hardware Security · Embedded Systems · Hardware/Software Co-design
 
 ---
 
